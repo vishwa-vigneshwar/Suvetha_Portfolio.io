@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suvetha's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Suvetha S</h1>
+        <p>Bachelor of Engineering in Computer Science - Anna University</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a motivated and passionate Computer Science student with a strong foundation in web and full stack development, aiming to leverage my skills in a professional tech environment. My interests extend to developing scalable web applications and exploring new technologies in the field of artificial intelligence.</p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li><strong>Bachelor of Engineering (B.E.), Computer Science:</strong> Anna University, CGPA: 8.5/10 (Expected Graduation: 2024)</li>
+            <li><strong>Higher Secondary Certificate (HSC):</strong> Scored 70.1% at Sri Raghavendra Matric Higher Secondary School (2020)</li>
+            <li><strong>Secondary School Leaving Certificate (SSLC):</strong> Scored 90.2% at Government High School (2018)</li>
+        </ul>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li>Programming Languages: Python, Java, HTML, CSS</li>
+            <li>Frameworks/Technologies: Django, React</li>
+            <li>Tools: Git, Docker (Basic knowledge)</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Personal Portfolio Website</h3>
+            <p>Developed a personal portfolio to showcase projects and academic background using HTML, CSS, and JavaScript.</p>
+            <button onclick="showModal('portfolioModal')">More Details</button>
+        </div>
+        <div class="project">
+            <h3>Online Retail Database System</h3>
+            <p>Created a database management system for an online retailer using Python and SQL to handle inventory and transactions.</p>
+            <button onclick="showModal('retailModal')">More Details</button>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:suvethasekar07@gmail.com">suvethasekar07@gmail.com</a></p>
+        <p>Phone: +91-7397585265</p>
+    </section>
+
+    <!-- Modals for Project Details -->
+    <div id="portfolioModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('portfolioModal')">&times;</span>
+            <h2>Personal Portfolio Website</h2>
+            <p>This project was designed to display my technical skills and projects visually. It features responsive design and interactive UI components built using modern web technologies.</p>
+        </div>
+    </div>
+    <div id="retailModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('retailModal')">&times;</span>
+            <h2>Online Retail Database System</h2>
+            <p>The system was built to manage customer, product, and order data efficiently, with an interface to add and edit items, and track sales and inventory in real-time.</p>
+        </div>
+    </div><br><br><br>
+
+    <footer>
+        <p>© 2024 Suvetha S. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
